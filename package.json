@@ -1,0 +1,47 @@
+{
+  "name": "stfr",
+  "version": "0.1.0",
+  "author": "stfr",
+  "description": "stfr",
+  "private": true,
+  "main": "public/electron.js",
+  "scripts": {
+    "react-start": "react-scripts start",
+    "react-build": "react-scripts build",
+    "dev": "concurrently \"BROWSER=none npm run react-start\" \"wait-on http://localhost:3000 && electron .\"",
+    "build": "electron-builder",
+    "prebuild": "npm run react-build",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "build": {
+    "appId": "com.stfr.ltr",
+    "files": [
+      "build/**/*"
+    ]
+  },
+  "dependencies": {
+    "async": "^2.6.1",
+    "axios": "^0.18.0",
+    "electron-is-dev": "^0.3.0",
+    "flexboxgrid": "^6.3.1",
+    "langs": "^2.0.0",
+    "lodash": "^4.17.10",
+    "mime": "^2.3.1",
+    "nedb": "^1.8.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-ionicons": "^2.1.6",
+    "react-redux": "^5.0.7",
+    "react-select": "^1.2.1",
+    "redux": "^4.0.0",
+    "redux-localstorage": "^0.4.1",
+    "redux-thunk": "^2.3.0",
+    "concurrently": "^3.6.0",
+    "electron": "^2.0.4",
+    "electron-builder": "^20.19.1",
+    "electron-rebuild": "^1.8.1",
+    "react-scripts": "1.1.4",
+    "wait-on": "^2.1.0"
+  },
+  "homepage": "./"
+}

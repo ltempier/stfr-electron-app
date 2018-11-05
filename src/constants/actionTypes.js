@@ -1,0 +1,10 @@
+
+
+
+export const UPD_MOVIE = "UPD_MOVIE ";
+export const UPD_MOVIE_SUBTITLE = "UPD_MOVIE_SUBTITLE ";
+
+export const SET_LANGUAGES = "SET_LANGUAGES";
+
+export const FIND_MOVIES_START = "FIND_MOVIES_START";
+export const FIND_MOVIES_END = "FIND_MOVIES_END";

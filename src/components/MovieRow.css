@@ -1,0 +1,32 @@
+
+.movie-row {
+
+    background-color: white;
+
+    border-bottom: solid 1px #C9C9C9;
+
+    padding-left: 20px;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.movie-row .movie-checkbox {
+}
+
+.movie-row .movie-name {
+}
+
+.movie-row.disabled .movie-name {
+    opacity: 0.5;
+}
+
+.movie-row .movie-name .name {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.movie-row .movie-name .path {
+    font-size: 10px;
+    color: #4A4A4A;
+}
