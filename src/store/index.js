@@ -21,8 +21,4 @@ const store = createStore(
 );
 
 
-store.subscribe(function () {
-    console.log('TODO remove', 'getState', store.getState())
-});
-
 export default store;

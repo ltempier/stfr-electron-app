@@ -10,9 +10,11 @@ This app help you to find subtitles of your favorites movies.
 ![app screenshot](https://raw.githubusercontent.com/ltempier/stfr-electron-app/master/screenshot/screen2.png)
 
 
-## Build
+## Build (only test on macOS)
+
 ```sh
 npm install
 npm run build
 ```
-Goto ./dist
+
+GOTO ./dist/
